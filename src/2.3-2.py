@@ -2,7 +2,6 @@
 __author__ = 'haoxiang'
 
 def Merge(alist,p,q,r):
-
 #p是第一个序列的子长度，r是整个序列的长度
     left = alist[p:q+1]
     right = alist[q+1:r+1]
